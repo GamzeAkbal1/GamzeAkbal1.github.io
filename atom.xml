@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://gamzeakbal1.github.io/atom.xml" rel="self"/>
   <link href="http://gamzeakbal1.github.io/"/>
-  <updated>2016-08-01T05:41:11+03:00</updated>
+  <updated>2016-08-01T05:42:20+03:00</updated>
   <id>http://gamzeakbal1.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -82,9 +82,6 @@
 <p> $.each( repos, function( i, rep )
  { if ( rep.data( &ldquo;currently&rdquo; ) !== &ldquo;showing&rdquo; )
  { rep.stop(); } });</p></li>
-<li><p>A list item.</p>
-
-<p>With multiple paragraphs.</p></li>
 </ul>
 
 ]]></content>
