@@ -60,7 +60,7 @@ categories:
 
 	$.each( repos, function( i, rep )
 
-	{ if ( rep.data( "currently" ) !== "showing" )
+	{ if ( rep.data( "currently" ) !== "showing" )amz
 
 	{ rep.stop(); } });
 ```
