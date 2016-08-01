@@ -125,21 +125,45 @@
 <p><em>According to DRY principle programmer should avoid writing again same code blog during the coding</em></p>
 
 <ul>
-<li><p>WITHOUT DRY;</p>
-
-<p> if ( repo.data( &ldquo;currently&rdquo; ) !== &ldquo;showing&rdquo; ) { repo.stop(); }</p>
-
-<p> if ( repo1.data( &ldquo;currently&rdquo; ) !== &ldquo;showing&rdquo; ) { repo1.stop(); }</p>
-
-<p> if ( repo2.data( &ldquo;currently&rdquo; ) !== &ldquo;showing&rdquo; ) { repo2.stop(); }</p></li>
-<li><p>WITH DRY;</p>
-
-<p> var repos = [ repo, repo1, repo2 ];</p>
-
-<p> $.each( repos, function( i, rep )
- { if ( rep.data( &ldquo;currently&rdquo; ) !== &ldquo;showing&rdquo; )
- { rep.stop(); } });</p></li>
+<li>WITHOUT DRY;</li>
 </ul>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>1.if <span class="o">(</span> repo.data<span class="o">(</span> <span class="s2">&quot;currently&quot;</span> <span class="o">)</span> !<span class="o">==</span> <span class="s2">&quot;showing&quot;</span> <span class="o">)</span> <span class="o">{</span> repo.stop<span class="o">()</span><span class="p">;</span> <span class="o">}</span>
+</span><span class='line'>
+</span><span class='line'>2.if <span class="o">(</span> repo1.data<span class="o">(</span> <span class="s2">&quot;currently&quot;</span> <span class="o">)</span> !<span class="o">==</span> <span class="s2">&quot;showing&quot;</span> <span class="o">)</span> <span class="o">{</span> repo1.stop<span class="o">()</span><span class="p">;</span> <span class="o">}</span>
+</span><span class='line'>
+</span><span class='line'>3.if <span class="o">(</span> repo2.data<span class="o">(</span> <span class="s2">&quot;currently&quot;</span> <span class="o">)</span> !<span class="o">==</span> <span class="s2">&quot;showing&quot;</span> <span class="o">)</span> <span class="o">{</span> repo2.stop<span class="o">()</span><span class="p">;</span> <span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>WITH DRY;</li>
+</ul>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>1.var <span class="nv">repos</span> <span class="o">=</span> <span class="o">[</span> repo, repo1, repo2 <span class="o">]</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'>2.<span class="nv">$.</span>each<span class="o">(</span> repos, <span class="k">function</span><span class="o">(</span> i, rep <span class="o">)</span>
+</span><span class='line'>
+</span><span class='line'>3.<span class="o">{</span> <span class="k">if</span> <span class="o">(</span> rep.data<span class="o">(</span> <span class="s2">&quot;currently&quot;</span> <span class="o">)</span> !<span class="o">==</span> <span class="s2">&quot;showing&quot;</span> <span class="o">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="m">4</span> <span class="o">{</span> rep.stop<span class="o">()</span><span class="p">;</span> <span class="o">}</span> <span class="o">})</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
 
 </div>
 
