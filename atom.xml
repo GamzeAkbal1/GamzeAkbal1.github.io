@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://gamzeakbal1.github.io/atom.xml" rel="self"/>
   <link href="http://gamzeakbal1.github.io/"/>
-  <updated>2016-08-01T04:59:29+03:00</updated>
+  <updated>2016-08-01T05:02:57+03:00</updated>
   <id>http://gamzeakbal1.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -60,6 +60,8 @@
 <li>Basically Controller is a bridge between Model and View</li>
 </ul>
 
+
+<p><img src="http://kodbas.com/wp-content/uploads/2014/04/Beh3a.png" title="mvc diagram" alt="mvc" /></p>
 ]]></content>
   </entry>
   
