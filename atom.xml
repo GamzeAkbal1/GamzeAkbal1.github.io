@@ -4,7 +4,7 @@
   <title><![CDATA[Gamze's Blog]]></title>
   <link href="http://gamzeakbal1.github.io/atom.xml" rel="self"/>
   <link href="http://gamzeakbal1.github.io/"/>
-  <updated>2016-08-01T16:08:14+03:00</updated>
+  <updated>2016-08-01T16:13:35+03:00</updated>
   <id>http://gamzeakbal1.github.io/</id>
   <author>
     <name><![CDATA[Gamze Akbal]]></name>
@@ -20,7 +20,7 @@
     <id>http://gamzeakbal1.github.io/blog/2016/08/01/semantic-versioning</id>
     <content type="html"><![CDATA[<h3>Semantic Verisoning</h3>
 
-<p>*Semantic Versioning using to show changes in the software *</p>
+<p><em>Semantic Versioning using to show changes in the software</em></p>
 
 <p><em>Semantic Versioning is expressed as X.Y.Z|p</em></p>
 
