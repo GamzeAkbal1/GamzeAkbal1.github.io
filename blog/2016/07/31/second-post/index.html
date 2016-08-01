@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Second Post - My Octopress Blog</title>
+  <title>ORM - My Octopress Blog</title>
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="ORM ORM for every object in the database generates an object in the code side
+These programs use code generation technique produces automatic code we &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -69,7 +69,7 @@
   
   <header>
     
-      <h1 class="entry-title">Second Post</h1>
+      <h1 class="entry-title">ORM</h1>
     
     
       <p class="meta">
@@ -85,7 +85,62 @@
   </header>
 
 
-<div class="entry-content">
+<div class="entry-content"><h3>ORM</h3>
+
+<p><em>ORM  for every object in the database generates an object in the code side</em>
+<em>These programs use code generation technique produces automatic code we need to write.</em></p>
+
+<p>Lets try ActiveRecord</p>
+
+<p>First step  we&rsquo;re going to install;</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$gem</span> install activerecord
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Than lets use</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>   require <span class="s1">&#39;rubygems&#39;</span>
+</span><span class='line'>  require <span class="s1">&#39;activerecord&#39;</span>
+</span><span class='line'>  ActiveRecord::Base.establish_connection<span class="o">(</span>
+</span><span class='line'>      :adapter<span class="o">=</span>&gt; <span class="s2">&quot;mysql&quot;</span>,
+</span><span class='line'>      :host <span class="o">=</span>&gt; <span class="s2">&quot;localhost&quot;</span>,
+</span><span class='line'>      :database<span class="o">=</span>&gt; <span class="s2">&quot;articles&quot;</span>
+</span><span class='line'><span class="o">)</span>
+</span><span class='line'>
+</span><span class='line'>  class Article &lt; ActiveRecord::Base
+</span><span class='line'>  end
+</span><span class='line'>
+</span><span class='line'>  <span class="c">#Creating a new article</span>
+</span><span class='line'>  Article.create<span class="o">(</span>title:<span class="s1">&#39;ORM&#39;</span>, author:<span class="s1">&#39;Manu&#39;</span><span class="o">)</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="c">#Fetching an article</span>
+</span><span class='line'>  <span class="nv">article</span> <span class="o">=</span> Article.find<span class="o">(</span>:first<span class="o">)</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="c">#Destroy an article</span>
+</span><span class='line'>  Article.find<span class="o">(</span>:first<span class="o">)</span>.destroy <span class="se">\\</span>find takes id u can write <span class="s2">&quot;txt&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
 </div>
 
 
@@ -134,7 +189,7 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2016/07/31/second-post/">Second Post</a>
+        <a href="/blog/2016/07/31/second-post/">ORM</a>
       </li>
     
       <li class="post">
