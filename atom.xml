@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://gamzeakbal1.github.io/atom.xml" rel="self"/>
   <link href="http://gamzeakbal1.github.io/"/>
-  <updated>2016-08-01T06:53:21+03:00</updated>
+  <updated>2016-08-01T06:54:30+03:00</updated>
   <id>http://gamzeakbal1.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -94,21 +94,27 @@
 
 <p><strong>MODEL</strong></p>
 
-<pre><code>* Represent the data used in practice and is part of the processing logic of the stored data.*
-* To save the data in the database or get the records in the database*
-</code></pre>
+<ul>
+<li>Represent the data used in practice and is part of the processing logic of the stored data.*</li>
+<li>To save the data in the database or get the records in the database*</li>
+</ul>
+
 
 <p><strong>VIEW</strong></p>
 
-<pre><code>* This part that users see* 
-</code></pre>
+<ul>
+<li>This part that users see*</li>
+</ul>
+
 
 <p><strong>CONTROLLER</strong></p>
 
-<pre><code>* Performs bring in taking action between Model and View*
-* Controller sends data to the Model received from the View or sends data to the View received from the Model.*
-* Basically Controller is a bridge between Model and View*
-</code></pre>
+<ul>
+<li>Performs bring in taking action between Model and View*</li>
+<li>Controller sends data to the Model received from the View or sends data to the View received from the Model.*</li>
+<li>Basically Controller is a bridge between Model and View*</li>
+</ul>
+
 
 <p><img src="http://kodbas.com/wp-content/uploads/2014/04/Beh3a.png" title="mvc diagram" alt="mvc" /></p>
 
