@@ -124,19 +124,30 @@
 
 <p><em>According to DRY principle programmer should avoid writing again same code blog during the coding</em></p>
 
-<p>*WITHOUT DRY;</p>
+<ul>
+<li><p>WITHOUT DRY;</p>
 
 <p>if ( repo.data( &ldquo;currently&rdquo; ) !== &ldquo;showing&rdquo; ) { repo.stop(); }</p>
 
 <p>if ( repo1.data( &ldquo;currently&rdquo; ) !== &ldquo;showing&rdquo; ) { repo1.stop(); }</p>
 
-<p>if ( repo2.data( &ldquo;currently&rdquo; ) !== &ldquo;showing&rdquo; ) { repo2.stop(); }</p>
+<p>if ( repo2.data( &ldquo;currently&rdquo; ) !== &ldquo;showing&rdquo; ) { repo2.stop(); }</p></li>
+<li><p>WITH DRY;</p></li>
+</ul>
 
-<p>*WITH DRY;</p>
 
-<p>var repos = [ repo, repo1, repo2 ];</p>
+<p>  var repos = [ repo, repo1, repo2 ];</p>
 
-<p>$.each( repos, function( i, rep ) { if ( rep.data( &ldquo;currently&rdquo; ) !== &ldquo;showing&rdquo; ) { rep.stop(); } });</p>
+<p>  $.each( repos, function( i, rep )
+  { if ( rep.data( &ldquo;currently&rdquo; ) !== &ldquo;showing&rdquo; )
+  { rep.stop(); } });</p>
+
+<ul>
+<li><p>A list item.</p>
+
+<p>With multiple paragraphs.</p></li>
+</ul>
+
 </div>
 
 
