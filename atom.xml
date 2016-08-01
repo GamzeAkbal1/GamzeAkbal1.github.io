@@ -4,7 +4,7 @@
   <title><![CDATA[Gamze's Blog]]></title>
   <link href="http://gamzeakbal1.github.io/atom.xml" rel="self"/>
   <link href="http://gamzeakbal1.github.io/"/>
-  <updated>2016-08-01T11:13:50+03:00</updated>
+  <updated>2016-08-01T13:46:45+03:00</updated>
   <id>http://gamzeakbal1.github.io/</id>
   <author>
     <name><![CDATA[Gamze Akbal]]></name>
@@ -14,11 +14,13 @@
 
   
   <entry>
-    <title type="html"><![CDATA[ORM]]></title>
+    <title type="html"><![CDATA[WORKSHOP'S NOTES]]></title>
     <link href="http://gamzeakbal1.github.io/blog/2016/07/31/second-post/"/>
     <updated>2016-07-31T21:48:10+03:00</updated>
     <id>http://gamzeakbal1.github.io/blog/2016/07/31/second-post</id>
-    <content type="html"><![CDATA[<h3>ORM</h3>
+    <content type="html"><![CDATA[<p><em>To be honest i didn&rsquo;t understand many things because im starting late and i didn&rsquo;t know about i had no prior knowledge about rails Generally i try to catch up the others when i try to erorrs they  move on the another topic but it was a great opportunity and exprience for me.Thanks to workshop i believe i can learn easyly ruby on rails in the linux camp.</em></p>
+
+<h3>ORM</h3>
 
 <p><em>ORM  for every object in the database generates an object in the code side</em>
 <em>These programs use code generation technique produces automatic code we need to write.</em></p>
