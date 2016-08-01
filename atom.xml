@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://gamzeakbal1.github.io/atom.xml" rel="self"/>
   <link href="http://gamzeakbal1.github.io/"/>
-  <updated>2016-08-01T04:57:19+03:00</updated>
+  <updated>2016-08-01T04:59:29+03:00</updated>
   <id>http://gamzeakbal1.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -29,13 +29,13 @@
     <id>http://gamzeakbal1.github.io/blog/2016/07/31/octopress-blogging</id>
     <content type="html"><![CDATA[<h3>WHAT IS RUBY ON RAILS?</h3>
 
-<p><strong>Ruby on Rails (RoR) or Rails is an open source web application development framework written Ruby language which is based on Model-View-Controller(MVC),Dont Repeat Yourself(DRY) and Convention over Configuration  (CoC) approch.</strong></p>
+<p><em>Ruby on Rails (RoR) or Rails is an open source web application development framework written Ruby language which is based on Model-View-Controller(MVC),Dont Repeat Yourself(DRY) and Convention over Configuration  (CoC) approch.</em></p>
 
 <h3>Well What are these ?</h3>
 
 <p><strong>Lets start with MVC!</strong></p>
 
-<p><strong>MVC is an architectural pattern which is used software engineering.</strong></p>
+<p><em>MVC is an architectural pattern which is used software engineering.</em></p>
 
 <p><strong>MODEL</strong></p>
 
