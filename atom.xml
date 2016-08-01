@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://gamzeakbal1.github.io/atom.xml" rel="self"/>
   <link href="http://gamzeakbal1.github.io/"/>
-  <updated>2016-08-01T05:55:59+03:00</updated>
+  <updated>2016-08-01T05:58:22+03:00</updated>
   <id>http://gamzeakbal1.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -33,7 +33,7 @@
 
 <h3>Well What are these ?</h3>
 
-<h4>Lets start with MVC!</h4>
+<h3>Lets start with MVC!</h3>
 
 <p><em>MVC is an architectural pattern which is used software engineering.</em></p>
 
@@ -63,7 +63,7 @@
 
 <p><img src="http://kodbas.com/wp-content/uploads/2014/04/Beh3a.png" title="mvc diagram" alt="mvc" /></p>
 
-<h4>DRY</h4>
+<h3>DRY</h3>
 
 <p><em>According to DRY principle programmer should avoid writing again same code blog during the coding</em></p>
 
