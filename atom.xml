@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://gamzeakbal1.github.io/atom.xml" rel="self"/>
   <link href="http://gamzeakbal1.github.io/"/>
-  <updated>2016-08-01T04:26:53+03:00</updated>
+  <updated>2016-08-01T04:32:23+03:00</updated>
   <id>http://gamzeakbal1.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -27,32 +27,27 @@
     <link href="http://gamzeakbal1.github.io/blog/2016/07/31/octopress-blogging/"/>
     <updated>2016-07-31T21:36:39+03:00</updated>
     <id>http://gamzeakbal1.github.io/blog/2016/07/31/octopress-blogging</id>
-    <content type="html"><![CDATA[<h2>WHAT IS RUBY ON RAILS?</h2>
+    <content type="html"><![CDATA[<h3>WHAT IS RUBY ON RAILS?</h3>
 
-<h3>Ruby on Rails (RoR) or Rails is an open source web application development framework written Ruby language</h3>
+<p><strong>Ruby on Rails (RoR) or Rails is an open source web application development framework written Ruby language which is based on Model-View-Controller(MVC),Dont Repeat Yourself(DRY) and Convention over Configuration  (CoC) approch.</strong></p>
 
-<h3>which is based on Model-View-Controller(MVC),Dont Repeat Yourself(DRY) and Convention over Configuration  (CoC) approch.</h3>
+<h3>Well What are these ?</h3>
 
-<h2>Well What are these ?</h2>
+<p><strong>Lets start with MVC!</strong></p>
 
-<h2>Lets start with MVC!</h2>
+<p><strong>MVC is an architectural pattern which is used software engineering.</strong></p>
 
-<h3>MVC is an architectural pattern which is used software engineering.</h3>
+<p><strong>MODEL:</strong>
+-Represent the data used in practice and is part of the processing logic of the stored data.
+*To save the data in the database or get the records in the database</p>
 
-<h2>MODEL:</h2>
+<p><strong>VIEW:</strong>
+-This part that users see</p>
 
-<p>  -Represent the data used in practice and is part of the processing logic of the stored data.
-  *To save the data in the database or get the records in the database</p>
-
-<h2>VIEW:</h2>
-
-<p>  -This part that users see</p>
-
-<h2>CONTROLLER:</h2>
-
-<p>  -Performs bring in taking action between Model and View
-  -Controller sends data to the Model received from the View or sends data to the View received from the Model.
-  -Basically Controller is a bridge between Model and View</p>
+<p><strong>CONTROLLER:</strong>
+-Performs bring in taking action between Model and View
+-Controller sends data to the Model received from the View or sends data to the View received from the Model.
+-Basically Controller is a bridge between Model and View</p>
 ]]></content>
   </entry>
   
