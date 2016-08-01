@@ -160,22 +160,18 @@
 <ul>
 <li><p>WITHOUT DRY;</p>
 
-<p>if ( repo.data( &ldquo;currently&rdquo; ) !== &ldquo;showing&rdquo; ) { repo.stop(); }</p>
+<p> if ( repo.data( &ldquo;currently&rdquo; ) !== &ldquo;showing&rdquo; ) { repo.stop(); }</p>
 
-<p>if ( repo1.data( &ldquo;currently&rdquo; ) !== &ldquo;showing&rdquo; ) { repo1.stop(); }</p>
+<p> if ( repo1.data( &ldquo;currently&rdquo; ) !== &ldquo;showing&rdquo; ) { repo1.stop(); }</p>
 
-<p>if ( repo2.data( &ldquo;currently&rdquo; ) !== &ldquo;showing&rdquo; ) { repo2.stop(); }</p></li>
-<li><p>WITH DRY;</p></li>
-</ul>
+<p> if ( repo2.data( &ldquo;currently&rdquo; ) !== &ldquo;showing&rdquo; ) { repo2.stop(); }</p></li>
+<li><p>WITH DRY;</p>
 
+<p> var repos = [ repo, repo1, repo2 ];</p>
 
-<p>  var repos = [ repo, repo1, repo2 ];</p>
-
-<p>  $.each( repos, function( i, rep )
-  { if ( rep.data( &ldquo;currently&rdquo; ) !== &ldquo;showing&rdquo; )
-  { rep.stop(); } });</p>
-
-<ul>
+<p> $.each( repos, function( i, rep )
+ { if ( rep.data( &ldquo;currently&rdquo; ) !== &ldquo;showing&rdquo; )
+ { rep.stop(); } });</p></li>
 <li><p>A list item.</p>
 
 <p>With multiple paragraphs.</p></li>
