@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://gamzeakbal1.github.io/sitemap.xml 
+Sitemap: http://gamzeakbal.github.io/sitemap.xml 

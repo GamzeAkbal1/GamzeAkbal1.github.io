@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Gamze's Blog]]></title>
-  <link href="http://gamzeakbal1.github.io/atom.xml" rel="self"/>
-  <link href="http://gamzeakbal1.github.io/"/>
-  <updated>2016-08-01T16:13:35+03:00</updated>
-  <id>http://gamzeakbal1.github.io/</id>
+  <link href="http://gamzeakbal.github.io/atom.xml" rel="self"/>
+  <link href="http://gamzeakbal.github.io/"/>
+  <updated>2016-08-01T16:17:49+03:00</updated>
+  <id>http://gamzeakbal.github.io/</id>
   <author>
     <name><![CDATA[Gamze Akbal]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Semantic Versioning]]></title>
-    <link href="http://gamzeakbal1.github.io/blog/2016/08/01/semantic-versioning/"/>
+    <link href="http://gamzeakbal.github.io/blog/2016/08/01/semantic-versioning/"/>
     <updated>2016-08-01T15:33:21+03:00</updated>
-    <id>http://gamzeakbal1.github.io/blog/2016/08/01/semantic-versioning</id>
+    <id>http://gamzeakbal.github.io/blog/2016/08/01/semantic-versioning</id>
     <content type="html"><![CDATA[<h3>Semantic Verisoning</h3>
 
 <p><em>Semantic Versioning using to show changes in the software</em></p>
@@ -54,9 +54,9 @@
   
   <entry>
     <title type="html"><![CDATA[WORKSHOP'S NOTES]]></title>
-    <link href="http://gamzeakbal1.github.io/blog/2016/07/31/second-post/"/>
+    <link href="http://gamzeakbal.github.io/blog/2016/07/31/second-post/"/>
     <updated>2016-07-31T21:48:10+03:00</updated>
-    <id>http://gamzeakbal1.github.io/blog/2016/07/31/second-post</id>
+    <id>http://gamzeakbal.github.io/blog/2016/07/31/second-post</id>
     <content type="html"><![CDATA[<p><em>To be honest i didn&rsquo;t understand many things because im starting late and i had no prior knowledge about rails Generally i try to catch up the others when i try to errors they  move on the another topic but it was a great opportunity and exprience for me.Thanks to workshop i believe i can learn easily ruby on rails in the linux camp.</em></p>
 
 <h3>ORM</h3>
@@ -120,9 +120,9 @@
   
   <entry>
     <title type="html"><![CDATA[WORKSHOP'S NOTES]]></title>
-    <link href="http://gamzeakbal1.github.io/blog/2016/07/31/octopress-blogging/"/>
+    <link href="http://gamzeakbal.github.io/blog/2016/07/31/octopress-blogging/"/>
     <updated>2016-07-31T21:36:39+03:00</updated>
-    <id>http://gamzeakbal1.github.io/blog/2016/07/31/octopress-blogging</id>
+    <id>http://gamzeakbal.github.io/blog/2016/07/31/octopress-blogging</id>
     <content type="html"><![CDATA[<h3>WHAT IS RUBY ON RAILS?</h3>
 
 <p><em>Ruby on Rails (RoR) or Rails is an open source web application development framework written Ruby language which is based on Model-View-Controller(MVC),Dont Repeat Yourself(DRY) and Convention over Configuration  (CoC) approch.</em></p>
