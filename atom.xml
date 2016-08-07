@@ -3,7 +3,7 @@
   <title><![CDATA[Gamze's Blog]]></title>
   <link href="http://gamzeakbal.github.io/atom.xml" rel="self"/>
   <link href="http://gamzeakbal.github.io/"/>
-  <updated>2016-08-07T01:03:24+03:00</updated>
+  <updated>2016-08-07T14:25:07+03:00</updated>
   <id>http://gamzeakbal.github.io/</id>
   <author>
     <name><![CDATA[Gamze Akbal]]></name>
@@ -20,13 +20,13 @@
     <content type="html"><![CDATA[<p><em>Bugün sabah ilk derse girdik önceki gun dersten çıktık çunku ruby -v yazınca cevap gelenler dersten çıkabilir dediler derse girenler ruby yuklemişler ve github hesabı almışlar.</em>
 <em>Sabah dersimize giren eğitmen <a href="https://twitter.com/ugorur" title="Umurcan Görür">Umurcan Görür</a>
 çok heycanlı ve mutluydu  özellikle rubynin for dongusunden bahsederken.. :)  Rubyde nerdeyse hiç for döngüsü kullanılmıyormuş.Gerek yokmuş yanii..</em>
-<em>Derste slaytlardan  ve githubtaki örneklerden yararlandık slayt için buraya <a href="http://presentboldly.com/sbagdat/ab2015-ruby101/2" title="Umurcan Görür slaytix">TIK TIK</a> githubtaki örnekler için  <a href="https://github.com/ab16ruby/ornekler" title="Githubçı umurcan">TIK TIK TIKLA BANA</a>
+<em>Derste slaytlardan  ve githubtaki örneklerden yararlandık slayt için buraya <a href="http://presentboldly.com/sbagdat/ab2015-ruby101/2" title="Umurcan Görür slayt">TIK TIK</a> githubtaki örnekler için  <a href="https://github.com/ab16ruby/ornekler" title="Github">TIK TIK </a>
 genel olarak ne kadar kullanışlı bir dil olduğunu öğrendik.
 </em>Kısaca bahsi geçen konular gem kullanımı, bundle nedir, ruby community,rubyde değişkenlerin gösterimleri,diziler,aralıklar,sayılar,sayısal işlemler,class tanımlamaları,semboller, yararlanabileceğimiz siteler .
 <em>Öğleden sonra <a href="https://twitter.com/toziserikan" title="töziş">Tayfun Öziş Erikan</a> dersimize girdi gemlerden bahsetti ve gemleri çok güzel özetledi  tam ezberime alamadım tabiki ama özet olarak  &ldquo;Gemler yalnızca ruby kodu içermez gemleri birer mücevher gibi düşünün bir gem yuzukse öbürü bir kolye olabilir yani kolye olan bir gemi düşünürsek onun zincirine java diyebiliriz yani o gemde java kodu da bulunabilir veya js ya da  herhangi bir dil &rdquo;</em>
 <em>Gem kullanmanın birinci amacı zamanı iyi kullanmaktır problemleri hızlı çözmektir</em>
 <em>Bu açıklamadan sonra ya da önce (benim pek zaman kavramım yoktur da) bazı gemleri inceledik o gemi kaç kişi geliştirmiş kaç kişi indirmiş bunlara baktık aynı işlevi gören bir kaç gem varsa hangisi indirmemiz daha yararlı olur bunları öğrendik (bunlar hakkında ayrı bir blog yazısı yazacağım) *
-</em>Semantik versiyonlamaya değinildi semantik versiyonlama hakkındaki blog yazık için <a href="https://gamzeakbal1.github.io/blog/2016/08/01/semantic-versioning/" title="semver">Buraya bi TIK</a>*</p>
+</em>Semantik versiyonlamaya değinildi semantik versiyonlama hakkındaki blog yazısı için  <a href="https://gamzeakbal1.github.io/blog/2016/08/01/semantic-versioning/" title="semver">TIK</a> *</p>
 
 <p><em>Bağımlılık yönetimi (dependency management)inden bahsedildi bu konu hakkında da ayrıca bir blog yazısı yazacağım"
 </em>Daha sonra Linuxun genel komutlarından anlatıldı cd, ls, nano vb komutlar gene bu komutlar hakkında da ayrı bir blog yazısı yazacagım<em>
