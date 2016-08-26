@@ -3,7 +3,7 @@
   <title><![CDATA[Gamze's Blog]]></title>
   <link href="http://gamzeakbal.github.io/atom.xml" rel="self"/>
   <link href="http://gamzeakbal.github.io/"/>
-  <updated>2016-08-26T22:03:59+03:00</updated>
+  <updated>2016-08-26T22:10:09+03:00</updated>
   <id>http://gamzeakbal.github.io/</id>
   <author>
     <name><![CDATA[Gamze Akbal]]></name>
@@ -136,10 +136,10 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Linux Kampı 1.Gün]]></title>
-    <link href="http://gamzeakbal.github.io/blog/2016/08/06/linux-kampi-1-dot-gun/"/>
+    <title type="html"><![CDATA[Linux Kampı İlk Gün]]></title>
+    <link href="http://gamzeakbal.github.io/blog/2016/08/06/linux-kampi-ilk-gun/"/>
     <updated>2016-08-06T11:55:16+03:00</updated>
-    <id>http://gamzeakbal.github.io/blog/2016/08/06/linux-kampi-1-dot-gun</id>
+    <id>http://gamzeakbal.github.io/blog/2016/08/06/linux-kampi-ilk-gun</id>
     <content type="html"><![CDATA[<p><em>Bugün sabah ilk derse girdik önceki gun dersten çıktık çunku ruby -v yazınca cevap gelenler dersten çıkabilir dediler derse girenler ruby yuklemişler ve github hesabı almışlar.</em>
 <em>Sabah dersimize giren eğitmen <a href="https://twitter.com/ugorur" title="Umurcan Görür">Umurcan Görür</a>
 çok heycanlı ve mutluydu  özellikle rubynin for dongusunden bahsederken.. :)  Rubyde nerdeyse hiç for döngüsü kullanılmıyormuş.Gerek yokmuş yanii..</em>
