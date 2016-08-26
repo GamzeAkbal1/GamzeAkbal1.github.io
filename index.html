@@ -9,7 +9,7 @@
   <meta name="author" content="Gamze Akbal">
 
   
-  <meta name="description" content="Rails'i tam anlamıyla kullanmak ve yararlanmak için linux kullanmalıyız bu sebeple kampta Linux &lsquo;n temel komutlarını öğrendik ben de bu blog &hellip;">
+  <meta name="description" content="Önce Bağımlılık Yönetimi Nedir ? Ona bakalım sonra da kampta ödev olarak verilen ruby oyunumuza; Bağımlılık Yönetimi &ldquo;Dependency management& &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -44,6 +44,153 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016/08/26/bugun-gunlerden-linux-kamp/">Bugün Günlerden Linux Kamp</a></h1>
+    
+  </header>
+
+
+  
+    <p class="meta">
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-08-26T22:39:12+03:00" pubdate data-updated="true"></time>
+      
+    </p>
+  
+  
+
+
+  <div class="entry-content"><h3>Önce Bağımlılık Yönetimi Nedir ? Ona bakalım sonra da kampta ödev olarak verilen ruby oyunumuza;</h3>
+
+<p>Bağımlılık Yönetimi &ldquo;Dependency management&rdquo;  x geminin çalışması için a,b,c,d,e gemine ihtiyaç var ise buna Bağımlılık Yönetimi (DM) denir. Bunları tek tek gem install a, gem install b yazmak yerine &ldquo; bundle &rdquo; şekilde indirmek en mantıklısıdır bir nevi paket şeklinde.Zaten bundle bohça, paket anlamına gelmektedir. Bundle init yazdığımızda gem file dosyasını oluşturur ondan sonra dosyamıza girerek (Linux komutlarından hatırlarsınız cd) bundle install yazarak içindeki gemleri hepsini kurabiliriz</p>
+
+<p>Burada iki amaç var kısaca;</p>
+
+<ul>
+<li>1)Gemleri kısaca kurmak</li>
+<li>2)Gemlerin versiyonları çok hızlı geliştiği için</li>
+</ul>
+
+
+<h3>Odevimiz</h3>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>def findtheNumber
+</span><span class='line'>   puts <span class="s2">&quot;Bir sayi giriniz&quot;</span>
+</span><span class='line'>   <span class="nv">number</span><span class="o">=</span>gets.to_i   // gets ile girişi alıp to_i ile integera çeviririz
+</span><span class='line'>   <span class="nv">num</span><span class="o">=</span>rand<span class="o">(</span>0..100<span class="o">)</span>   //random fonksiyonu bize 0-100 değerleri arasında bir sayı uretir
+</span><span class='line'>   <span class="k">while</span> num!<span class="o">=</span>number  //tahmin ettiğimiz sayı random fonksiyonundan gelen sayıya eşit olana kadar bu döngüyü devam ettiririz
+</span><span class='line'>  <span class="k">if</span> number&gt;num
+</span><span class='line'>     puts <span class="s2">&quot;daha minik bir sayi giriniz&quot;</span>
+</span><span class='line'>     <span class="nv">number</span><span class="o">=</span>gets.to_i
+</span><span class='line'>  <span class="k">else</span>
+</span><span class='line'>     puts <span class="s2">&quot;daha buyuk bir sayi giriniz&quot;</span>
+</span><span class='line'>     <span class="nv">number</span><span class="o">=</span>gets.to_i
+</span><span class='line'>  end
+</span><span class='line'>   end
+</span><span class='line'>  puts <span class="s2">&quot;tebrikler sayiyi buldunuz&quot;</span>
+</span><span class='line'>end
+</span><span class='line'>
+</span><span class='line'>findtheNumber //metodumuzu çağırırız
+</span><span class='line'>
+</span><span class='line'>  
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Sınıfta Yaptığımız Örnekler</h3>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>def palindromkelime
+</span><span class='line'>    print <span class="s2">&quot;Bir kelime giriniz:&quot;</span>
+</span><span class='line'>    <span class="nv">kelime</span> <span class="o">=</span> gets.chomp
+</span><span class='line'>    <span class="k">if</span> kelime.downcase <span class="o">==</span> kelime.downcase.reverse
+</span><span class='line'>        puts <span class="s2">&quot;Kelime palindromdur.&quot;</span>
+</span><span class='line'>    <span class="k">else</span>
+</span><span class='line'>        puts <span class="s2">&quot;Palindrom olmayan bir kelimedir.&quot;</span>
+</span><span class='line'>    end
+</span><span class='line'>end
+</span><span class='line'>
+</span><span class='line'>def palindromcumle
+</span><span class='line'>    print <span class="s2">&quot;Cumle gir:&quot;</span>
+</span><span class='line'>    <span class="nv">cumle</span> <span class="o">=</span> gets.chomp
+</span><span class='line'>    <span class="k">if</span> cumle.downcase.gsub<span class="o">(</span>/<span class="se">\W</span>/,<span class="s2">&quot;&quot;</span><span class="o">)</span> <span class="o">==</span> cumle.downcase.gsub<span class="o">(</span>/<span class="se">\W</span>/,<span class="s2">&quot;&quot;</span><span class="o">)</span>.reverse
+</span><span class='line'>// gsub fonksiyonu içine regex alır
+</span><span class='line'>// <span class="se">\W</span> harf olmayan her şeyi seçer ve yerine <span class="s2">&quot;&quot;</span> koyar
+</span><span class='line'>// farklı regex işlemleri için bu siteyi ziyaret edebilirsiniz <span class="o">[</span>Rebular<span class="o">](</span>http://www.rubular.com/ <span class="s2">&quot;Regular exp for ruby&quot;</span><span class="o">)</span>
+</span><span class='line'>// gsub ve sub ın farkı sub ilk istenen karakteri alır gsub ise tum metin için çalışır globaldir
+</span><span class='line'>
+</span><span class='line'>        puts <span class="s2">&quot;Palindrom Cumle&quot;</span>
+</span><span class='line'>    <span class="k">else</span>
+</span><span class='line'>        puts <span class="s2">&quot;Palindrom Olmayan Cumle&quot;</span>
+</span><span class='line'>    end
+</span><span class='line'>end
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>*Ruby 101 için yararlanabileceğiniz türkçe kaynak <a href="https://vigo.gitbooks.io/ruby-101/content/" title="Türkçe kaynak">Ruby 101 gitbook</a> *</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -554,6 +701,10 @@ If you want to learn more u can check it out <a href="https://github.com/lab2023
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2016/08/26/bugun-gunlerden-linux-kamp/">Bugün Günlerden Linux Kamp</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2016/08/26/linux-temel-komutlar/">Linux Temel Komutlar</a>
       </li>
     
@@ -567,10 +718,6 @@ If you want to learn more u can check it out <a href="https://github.com/lab2023
     
       <li class="post">
         <a href="/blog/2016/07/31/second-post/">WORKSHOP'S NOTES</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/07/31/octopress-blogging/">WORKSHOP'S NOTES</a>
       </li>
     
   </ul>
