@@ -3,7 +3,7 @@
   <title><![CDATA[Gamze's Blog]]></title>
   <link href="http://gamzeakbal.github.io/atom.xml" rel="self"/>
   <link href="http://gamzeakbal.github.io/"/>
-  <updated>2016-08-07T14:26:18+03:00</updated>
+  <updated>2016-08-26T22:03:59+03:00</updated>
   <id>http://gamzeakbal.github.io/</id>
   <author>
     <name><![CDATA[Gamze Akbal]]></name>
@@ -11,6 +11,129 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Linux Temel Komutlar]]></title>
+    <link href="http://gamzeakbal.github.io/blog/2016/08/26/linux-temel-komutlar/"/>
+    <updated>2016-08-26T21:16:59+03:00</updated>
+    <id>http://gamzeakbal.github.io/blog/2016/08/26/linux-temel-komutlar</id>
+    <content type="html"><![CDATA[<p><em>Rails'i tam anlamıyla kullanmak ve yararlanmak  için linux kullanmalıyız bu sebeple kampta Linux &lsquo;n temel komutlarını öğrendik ben de bu blog yazımda öğrendiğimiz o komutları paylaşacağım.</em></p>
+
+<h3>Temel Komutlar</h3>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ls</span> //o dosya altındaki dosyaları gösterir
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$cd</span> //ornegin home dizinindeyiz ve home dizininin içindeki money klasorune girmek istiyoruz kullanmamız gereken komut<span class="p">;</span>
+</span><span class='line'><span class="nv">$cd</span> money
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ls</span> --help &gt; ls-help //ilk dosyamızı ikinciye kaydeder
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$history</span> //Terminali açtığımızdan beri hangi komutları yazdığımızı gösterir
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$mkdir</span> //yeni bir dizin oluşturur
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$rmdir</span> //Dizin boşsa o dizini siler
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$tail</span> FileName //O dosyanın son <span class="m">10</span> satırını yazar
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$cp</span> kaynakDosya /hedef  //kaynak dosyayı hedefte belirtilen yere kopyalar
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$pwd</span> //içinde bulunduğumuz klasörün dizinini verir
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$touch</span> YeniDosya.html  //yenidosya adlı html dosyasını oluşturur
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$nano</span> DosyaAdı //istenilen dosyayı açar
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$cat</span> DosyaAdı //istenilen dosyanın içeriğini gösterir nanodan farkı nano da dosyayı açıp içine eklemeler yapabiliriz ve ctrl+X ile kaydedebiliriz
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ls</span> -l //Bulunduğumuz dizin altındaki dosyaları ayrıntılı olarak listeler
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$mv</span> dosya_yada_klasör yeni ismi //dosya ismini değiştiririz
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$cd</span> .. //ile bir ust dizine geçeriz
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$find</span> DosyaAdı //Bulunduğumuz dizinde adını verdiğimiz dosyayı arar
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Linux Kampı 1.Gün]]></title>
