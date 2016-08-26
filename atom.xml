@@ -3,7 +3,7 @@
   <title><![CDATA[Gamze's Blog]]></title>
   <link href="http://gamzeakbal.github.io/atom.xml" rel="self"/>
   <link href="http://gamzeakbal.github.io/"/>
-  <updated>2016-08-26T23:30:19+03:00</updated>
+  <updated>2016-08-26T23:31:29+03:00</updated>
   <id>http://gamzeakbal.github.io/</id>
   <author>
     <name><![CDATA[Gamze Akbal]]></name>
@@ -24,8 +24,8 @@
 <p>Burada iki amaç var kısaca;</p>
 
 <ul>
-<li>1)Gemleri kısaca kurmak</li>
-<li>2)Gemlerin versiyonları çok hızlı geliştiği için</li>
+<li>Gemleri kısaca kurmak</li>
+<li>Gemlerin versiyonları çok hızlı geliştiği için</li>
 </ul>
 
 
@@ -123,11 +123,9 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<ul>
-<li><p>Farklı regex işlemleri için bu siteyi ziyaret edebilirsiniz <a href="http://www.rubular.com/" title="Regular exp for ruby">Rebular</a>*</p></li>
-<li><p>Ruby 101 için yararlanabileceğiniz türkçe kaynak <a href="https://vigo.gitbooks.io/ruby-101/content/" title="Türkçe kaynak">Ruby 101 gitbook</a> *</p></li>
-</ul>
+<p><em>Farklı regex işlemleri için bu siteyi ziyaret edebilirsiniz <a href="http://www.rubular.com/" title="Regular exp for ruby">Rebular</a></em></p>
 
+<p><em>Ruby 101 için yararlanabileceğiniz türkçe kaynak <a href="https://vigo.gitbooks.io/ruby-101/content/" title="Türkçe kaynak">Ruby 101 gitbook</a></em></p>
 ]]></content>
   </entry>
   
