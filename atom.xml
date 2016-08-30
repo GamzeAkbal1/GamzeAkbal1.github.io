@@ -3,7 +3,7 @@
   <title><![CDATA[Gamze's Blog]]></title>
   <link href="http://gamzeakbal.github.io/atom.xml" rel="self"/>
   <link href="http://gamzeakbal.github.io/"/>
-  <updated>2016-08-26T23:31:29+03:00</updated>
+  <updated>2016-08-30T07:03:27+03:00</updated>
   <id>http://gamzeakbal.github.io/</id>
   <author>
     <name><![CDATA[Gamze Akbal]]></name>
@@ -11,6 +11,91 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[2016 Linux Yaz Kampı]]></title>
+    <link href="http://gamzeakbal.github.io/blog/2016/08/30/2016-linux-yaz-kampi/"/>
+    <updated>2016-08-30T04:08:39+03:00</updated>
+    <id>http://gamzeakbal.github.io/blog/2016/08/30/2016-linux-yaz-kampi</id>
+    <content type="html"><![CDATA[<p>Herkese Merhaba! Eğer 2017 yılında Linux Yaz Kampına (LYK) gitmek istiyorsanız ve aklınızda acaba iyi midir ?? Ya 15 günüm rezil olursa gibi kafanızda soru işaretleri varsa tam da size göre bir yazı olacak!</p>
+
+<p>İlk önce işin maliyet kısmına bakalım kursların hepsi ücretsiz eğer LYK'ya katılmaya karar verdiyseniz konaklama ve yeme - içme masraflarınızı siz karşılıyorsunuz kampüste yemekhane ve cafelerin bulunduğu bir aktivite merkezi mevcut.</p>
+
+<p>Ben Denizli'den katıldım LYK'ya benim için upuzun bir yolculuk oldu yaklaşık 9 saatlik gece yolculuğu yaptık staj yaptığım şirketteki stajyerlerle beraber. En çok uzun yolculuk ve konaklama korkuttu gözümü. Ben pek uzun yolculuklara alışkın değilim (molalarda sessizce kustuğum doğrudur). Neyseki yolculuğumuz çok rahat geçti Boluya vardık hepimizin üzerinde bir uyku sersemliği vardı otogardan kalkan servisle kampüse gittik ve önce belirtilen fakülteye gidip kampa sonra kartlarımızı alıp KYK'ya başvuru-kayıt yaptık .</p>
+
+<p><a href="http://hizliresim.com/qEProZ"><img src="http://i.hizliresim.com/qEProZ.jpg" alt="image" /></a></p>
+
+<p>İşin en yorucu kısmı buydu sanırım ama sizin gibi yüzlerce kişiyi gördüğünüzde hoş bir ortamda olduğunuzu farkediyorsunuz ve IY NE İĞRENÇ Bİ GUNDU yerine &ldquo;tatlı&rdquo; bir yorgunluk olarak hatırlıyorsunuz (ironi yapmıyorum :)) Yurda yerleşip hemen açılış konuşmasının yapıldığı konferans salonuna gittik.Açılış konuşması yapıldı.</p>
+
+<p><a href="http://hizliresim.com/QQZ9Dg"><img src="http://i.hizliresim.com/QQZ9Dg.png" alt="image" /></a></p>
+
+<p>Daha sonra ara verilip ilk derse başlandı biz Rails kursundaydık bilgisayarında ubuntu olmayanlar ilk derste ubuntu ve ders için gerekli programları kurdular sonraki günlerde Ruby temel eğitimi verildi daha onceki blog yazımda bu eğitime dair verdiğim bilgileri okuyabilir ve kaynaklarını bulabilirsiniz.Git-Github,Web çalışma mantığı,Haml-sass ve son olarak rails projesi açılıp dizinler incelendi controller nedir hangi iş hangi dosya altında yapılır bunlar anlatıldı.Git-Github hakkında yakın bir zamanda blog yazacağım.</p>
+
+<p>Bu arada dersler saat sabah 930dan akşam 930'a kadar sürüyor ama dediğim gibi &ldquo;tatlı&rdquo; yorgunluk.Ayrıca geniş bir eğitimci skalasına sahip ilk haftada;</p>
+
+<ul>
+<li><p><a href="https://twitter.com/ugorur" title="Umurcan Görür">Umurcan Görür</a></p></li>
+<li><p><a href="https://twitter.com/beydogan_" title="Mehmet Beydogan">Mehmet Beydoğan</a></p></li>
+<li><p><a href="https://twitter.com/m_dilmac" title="kırmızı baslıklı hacker">Muhammet Dilmaç</a></p></li>
+<li><p><a href="https://twitter.com/sayginburak" title="saygın burak sevinç">Saygın Burak Sevinç</a></p></li>
+</ul>
+
+
+<p>İlk Üç gün kamptaki hocalarımız;</p>
+
+<ul>
+<li><p><a href="https://twitter.com/toziserikan" title="Tayfun Ozis Erikan">Tayfun Öziş Erikan</a></p></li>
+<li><p><a href="https://twitter.com/leylakapi_" title="Leyla Kapi">Leyla Kapi</a></p></li>
+<li><p><a href="https://twitter.com/sucuklukfasulye" title="Kader sucuk">Kader Sucuk</a></p></li>
+<li><p><a href="https://twitter.com/isoakbudak" title="İsmail Akbudak">İsmail Akbudak</a></p></li>
+</ul>
+
+
+<p>8 kişi eğitim verdi.Git,web,haml css eğitimlerinden sonra railse giriş yaptık ve ilk projelerimizi oluşturduk iki ayrı proje yaptık biri IdeaBoard öbürü de Place. İlk olarak db:pattern de IdeaBoard projemizin veritabanı şablonunu oluşturduk ve rails e geçip şablona gore veritabanımızı şekillendirdik. Daha sonra hocalarımız aynısını Place projesi için yapmamızı istedi ve ilerledikçe kahoolda yarışmalar yaptılar.Böylece öğrendiklerimizi pekiştirmiş olduk hem de derslerimiz sıkıcı olmadı.</p>
+
+<p>15 günlük kampta bir gün tatil verildi sınıfça gölcük'e gidildi.</p>
+
+<p>Kahvaltıdan bir kare</p>
+
+<p><a href="http://hizliresim.com/RQo2VG"><img src="http://i.hizliresim.com/RQo2VG.jpg" alt="image" /></a></p>
+
+<p>Gölcük çıkartması</p>
+
+<p><a href="http://hizliresim.com/mE1mzy"><img src="http://i.hizliresim.com/mE1mzy.jpg" alt="image" /></a></p>
+
+<p>1 Günlük tatilin ardından aramıza yeni bir hocamız aramıza katıldı rails projemize paralel olarak bize teste dayalı yazılım &ldquo;TDD&rdquo; ve Rspec gemini anlattı.Ayrıca Idea projemizin arayüzünü güzelleştirdi.</p>
+
+<ul>
+<li><a href="https://twitter.com/utkukaynar" title="Utku Kaynar">Utku Kaynar </a></li>
+</ul>
+
+
+<p><a href="http://hizliresim.com/A35W6X"><img src="http://i.hizliresim.com/A35W6X.png" alt="image" /></a></p>
+
+<p>IdeaBoard ve Place projelerimiz bittikten sonra kampın son 2 gunu yarışma yapıldı sınıf 4-5 kişilik gruplara ayrılarak öğrendiklerimizle  IMDB'nin-Kitap versiyonu olan bir web sitesi yaptık.</p>
+
+<p>Bad Girl"sss" Of Rails ekibimizle 1. olduk.&ldquo;Ehe he he he he&rdquo;</p>
+
+<p><a href="http://hizliresim.com/NkrmA5"><img src="http://i.hizliresim.com/NkrmA5.jpg" alt="image" /></a></p>
+
+<p>Son Gün Tüm Sınıfla Bir Kare</p>
+
+<p><a href="http://hizliresim.com/gXZE8R"><img src="http://i.hizliresim.com/gXZE8R.jpg" alt="image" /></a></p>
+
+<p>Genel olarak kamp hakkındaki fikirlerim;
+Keşke daha önce gitseymişim.Keşke her sene gitseymişim.Hayatımda geçirdiğim en güzel ve en eğlenceli zamanlardan biriydi.O kadar yoğun tempoya rağmen hala bu cümleleri kurabiliyorum (Ben bakkala gitmeye bile üşenirim). Çok güzel insanlar tanıdım arkadaş edindim. Akademik Bilişim ve 2017 LYK'yı dört DÖRT 4 gözle bekliyorum.</p>
+
+<p>Veee yepyeni bir teknoloji öğrendim.</p>
+
+<h3>Catch'em all</h3>
+
+<p><a href="http://hizliresim.com/lEvmWJ"><img src="http://i.hizliresim.com/lEvmWJ.jpg" alt="image" /></a></p>
+
+<p>Kamp Boyunca dağıtılan stickerslarla güzelleşen laptopım =)</p>
+
+<p><a href="http://hizliresim.com/VEvm3v"><img src="http://i.hizliresim.com/VEvm3v.jpg" alt="image" /></a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bugün Günlerden Linux Kamp]]></title>
